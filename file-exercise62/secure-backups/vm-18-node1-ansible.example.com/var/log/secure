@@ -1,0 +1,7 @@
+Sep 18 17:41:47 vm-18-node1-ansible sshd[83113]: Accepted publickey for automation from 192.168.122.34 port 49734 ssh2: RSA SHA256:WlNuBWOrc1l34rYu2C1/mCxhaBHAkmk2cRpJDW1SciE
+Sep 18 17:41:47 vm-18-node1-ansible systemd[83117]: pam_unix(systemd-user:session): session opened for user automation by (uid=0)
+Sep 18 17:41:47 vm-18-node1-ansible sshd[83113]: pam_unix(sshd:session): session opened for user automation by (uid=0)
+Sep 18 17:41:48 vm-18-node1-ansible sudo[83235]: automation : TTY=pts/0 ; PWD=/home/automation ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yoeqdlwobzexwwhxosorttkipybzlclc ; /usr/libexec/platform-python /home/automation/.ansible/tmp/ansible-tmp-1695073307.4339592-71041-205196086490429/AnsiballZ_setup.py
+Sep 18 17:41:48 vm-18-node1-ansible sudo[83235]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Sep 18 17:41:48 vm-18-node1-ansible sudo[83235]: pam_unix(sudo:session): session opened for user root by automation(uid=0)
+Sep 18 17:41:48 vm-18-node1-ansible sudo[83235]: pam_unix(sudo:session): session closed for user root
